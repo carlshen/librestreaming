@@ -1,6 +1,6 @@
 package me.lake.librestreaming.sample.hardfilter;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import java.nio.FloatBuffer;
 import java.text.SimpleDateFormat;

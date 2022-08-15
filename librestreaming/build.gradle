@@ -22,10 +22,14 @@ android {
             jni.srcDirs = []
         }
     }
-    externalNativeBuild {
-        ndkBuild {
-            path file('src/main/jni/Android.mk')
-        }
+//    externalNativeBuild {
+//        ndkBuild {
+//            path file('src/main/jni/Android.mk')
+//        }
+//    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
