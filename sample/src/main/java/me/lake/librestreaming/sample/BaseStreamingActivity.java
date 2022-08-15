@@ -53,7 +53,8 @@ public class BaseStreamingActivity extends AppCompatActivity implements RESConne
     protected Handler mainHander;
     protected Button btn_toggle;
     protected boolean started;
-    protected String rtmpaddr = "rtmp://10.57.9.88/live/livestream";
+//    protected String rtmpaddr = "rtmp://10.57.9.88/live/livestream";
+    protected String rtmpaddr = "rtmp://live-push.bilivideo.com/live-bvc/" + "?streamname=live_574012814_82567615&key=8a91f1087409d56f62e972b698d2a9d0&schedule=rtmp&pflag=1";
     protected int filtermode = RESConfig.FilterMode.SOFT;
     RESConfig resConfig;
 
