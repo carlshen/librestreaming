@@ -106,7 +106,7 @@ public class FakeView extends FrameLayout {
         translationAnim.setInterpolator(new DecelerateInterpolator());
         translationAnim.setDuration(3000);
         translationAnim.setRepeatCount(ValueAnimator.INFINITE);
-        translationAnim.setRepeatMode(Animation.REVERSE);//设置动画循环模式。
+        translationAnim.setRepeatMode(ValueAnimator.REVERSE);//设置动画循环模式。
         translationAnim.start();
 
         rotatioinAnim = ObjectAnimator.ofFloat(btn_test, "rotation", 0f, 360f);
